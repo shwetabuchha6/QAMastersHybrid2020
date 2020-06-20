@@ -25,18 +25,7 @@ Feature: User login for Automation Practise
     Then I Should be loggedIn successfully
     And I should be on MyAccount page
 
- # UnHappy Path scenarios:
-#  @regression
-#  Scenario: Verify User can not login with invalid credentials
-#    Given  I am on the homepage
-#    When I select SignIn link
-#    Then I should be on the authentication page
-#    And I should see SignIn panel
-#    When I enter username as "srikanth", password as "sdfsdfdsf"
-#    And I click SignIn
-#    Then I should not be loggedIn
-#    And I should see validation message as "Invalid email address."
-#
+
 #  @regression
 #  Scenario: Verify User can see validation message when fields left blank
 #    Given I am on the homepage
